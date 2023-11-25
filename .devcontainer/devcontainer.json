@@ -1,0 +1,23 @@
+{
+    "name": "typescript-sveltekit-cloudflare",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:20-bookworm",
+    "features": {
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.profiles.linux": {
+                    "bash": {
+                        "path": "/bin/bash"
+                    }
+                },
+                "terminal.integrated.defaultProfile.linux": "bash"
+            },
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "redhat.vscode-yaml",
+                "svelte.svelte-vscode"
+            ]
+        }
+    }
+}
