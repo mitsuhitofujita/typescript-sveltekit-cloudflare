@@ -19,5 +19,6 @@
                 "svelte.svelte-vscode"
             ]
         }
-    }
+    },
+    "postCreateCommand": "npm install --global bun@1.0.14 wrangler@3.17.1"
 }
