@@ -1,0 +1,27 @@
+{
+    "name": "SvelteKit + TypeScript + Cloudflare Workers",
+    // TypeScript対応のベースイメージ
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:18",
+    // 独自Feature（wrangler）を指定
+    "features": {
+        "./.features/wrangler": {}
+    },
+    // SvelteKitのデフォルトポートをフォワード
+    "forwardPorts": [
+        5173
+    ],
+    // 拡張機能や設定のカスタマイズ
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // Svelte公式拡張
+                "svelte.svelte-vscode",
+                // Lint & Format 系
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                // TypeScriptに関する追加拡張 (例)
+                "ms-vscode.vscode-typescript-tslint-plugin"
+            ]
+        }
+    }
+}

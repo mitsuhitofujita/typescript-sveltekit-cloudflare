@@ -1,0 +1,9 @@
+{
+    "id": "wrangler",
+    "version": "1.0.0",
+    "name": "Cloudflare Wrangler",
+    "description": "Installs the Wrangler CLI for Cloudflare Workers",
+    "installsAfter": [
+        "node"
+    ] // Node.js (TypeScript) イメージの後に実行
+}
