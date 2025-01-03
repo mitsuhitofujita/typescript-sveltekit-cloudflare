@@ -18,9 +18,7 @@
                 "svelte.svelte-vscode",
                 // Lint & Format 系
                 "dbaeumer.vscode-eslint",
-                "esbenp.prettier-vscode",
-                // TypeScriptに関する追加拡張 (例)
-                "ms-vscode.vscode-typescript-tslint-plugin"
+                "esbenp.prettier-vscode"
             ]
         }
     }
