@@ -10,6 +10,7 @@
     "forwardPorts": [
         5173
     ],
+    "runArgs": ["--env-file",".devcontainer/devcontainer.env"],
     // 拡張機能や設定のカスタマイズ
     "customizations": {
         "vscode": {
