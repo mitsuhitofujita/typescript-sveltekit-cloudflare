@@ -39,6 +39,7 @@
     "wrangler": "^3.99.0"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.5.2",
     "@supabase/supabase-js": "^2.47.10"
   }
 }
