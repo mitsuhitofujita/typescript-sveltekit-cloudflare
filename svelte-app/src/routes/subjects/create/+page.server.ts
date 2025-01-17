@@ -1,10 +1,7 @@
 import type { Actions } from './$types'
 
 export const actions: Actions = {
-	default: async ({ request, locals: { supabase, session } }) => {
-		if (!session) {
-			return { status: 401, body: 'Unauthorized' }
-		}
+	default: async ({ request, locals: { supabase } }) => {
 		const formData = await request.formData()
 		const name = formData.get('name') as string
 		// const userId = user?.id
