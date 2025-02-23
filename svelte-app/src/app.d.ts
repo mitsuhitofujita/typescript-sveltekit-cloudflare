@@ -5,7 +5,9 @@ import type { Session, SupabaseClient, User } from '@supabase/supabase-js'
 declare global {
 	namespace App {
 		interface Platform {
-			env: Env
+			env?: {
+				D1: D1Database
+			}
 			cf: CfProperties
 			ctx: ExecutionContext
 		}

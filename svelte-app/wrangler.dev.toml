@@ -29,6 +29,10 @@ pages_build_output_dir = ".svelte-kit/cloudflare"
 # binding = "MY_DB"
 # database_name = "my-database"
 # database_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+[[d1_databases]]
+binding = "D1"
+database_name = "svelte-app"
+database_id = "<DATABASE_ID>"
 
 # Bind a Durable Object. Durable objects are a scale-to-zero compute primitive based on the actor model.
 # Durable Objects can live for as long as needed. Use these when you need a long-running "server", such as in realtime apps.
